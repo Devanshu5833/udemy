@@ -6,13 +6,16 @@
   "scripts": {
     "clean": "rimraf build",
     "build": "npm run clean && webpack",
-    "serve": "webpack-dev-server"
+    "serve": "webpack-dev-server",
+    "start" : "node server.js"
   },
   "author": "Devanshu Oza",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.15.2",
     "rimraf": "^2.6.1",
     "webpack": "^2.4.1",
+    "webpack-dev-middleware": "^1.10.2",
     "webpack-dev-server": "^2.4.4"
   }
 }

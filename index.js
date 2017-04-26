@@ -5,7 +5,7 @@ var div = require('./modules/div.js');
 
 var total = sum.sum(30,10);
 var total1 = sub.sub(50,20);
-var total2 = mul.mul(30,40);
+var total2 = mul.mul(40,40);
 var total3 = div.div(50,10);
 
 var sumdiv,subdiv,muldiv,ddiv;
